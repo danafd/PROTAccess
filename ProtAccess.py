@@ -39,7 +39,7 @@ Entrez.email = 'danasalim.fakhreddine@uvic.cat'
 handle_main = Entrez.einfo()
 record_main = Entrez.read(handle_main)
 
-#Functions 
+#Functions defined for this tool
 def uniprotSum(code):
     ''' Function that gives a list of information on protein given a uniprot ID. 
     
