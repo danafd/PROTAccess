@@ -15,7 +15,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-
 parser = ArgumentParser(description = 'Extract information from UniProt and NCBI websites based on UniProt ID or list of UniProt IDs obtained from website.')
 parser.add_argument("-u", "--uniprotID", type = str, required = False, help = "Single UniProt ID. Used to obtain information on one protein only.")
 parser.add_argument("-i", "--inputfile", type = str, required = False, help = "File with UniProt IDs downloaded from uniprot.org as list file. Used to obtain information on a group of proteins.")
