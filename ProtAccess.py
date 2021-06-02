@@ -34,7 +34,7 @@ if len(sys.argv) == 1:
 
 args = parser.parse_args()
 
-#This is needed to access Entrez via Biopython
+#This is needed to initiate access to Entrez via Biopython
 Entrez.email = 'danasalim.fakhreddine@uvic.cat'
 handle_main = Entrez.einfo()
 record_main = Entrez.read(handle_main)
