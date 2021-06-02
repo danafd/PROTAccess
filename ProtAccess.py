@@ -27,7 +27,6 @@ parser.add_argument("-t", "--GOterm", type = str, required = False, help = "Used
 parser.add_argument("-c", "--countplot", action='store_true', required = False, help = "Used with -g and -t to create a countplot of GO terms associated with proteins in list. Only used for list of UniProt IDs.")
 parser.add_argument("-x", "--GOnum", type = int, required = False, help = 'Used with -g and -t. Accepts integers. When given a number x, it gives the top x GO terms for each protein from its UniProt page. If less than x GO terms are found for a protein, it gives all GO terms')
 
-
 if len(sys.argv) == 1:
     parser.print_help()
     sys.exit(1)
