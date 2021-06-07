@@ -21,7 +21,7 @@ parser.add_argument("-i", "--inputfile", type = str, required = False, help = "F
 parser.add_argument("-n", "--ncbiSeq", action='store_true', required = False, help = "Generate fasta file(s) with RNA trascript sequences.")
 parser.add_argument("-p", "--proteinSeq", action='store_true', required = False, help = "Generate fasta file(s) with protein sequences. Must be used with -s and -l.")
 parser.add_argument("-s", "--isoform", type = str, required = False, help = "Used with -p and -l. Set as 'canonical' to obtain canonical protein sequence only and 'all' to obtain protein sequences of all isoforms.")
-parser.add_argument("-l", "--aa_length", type = str, required = False, help = "Used with -p and -s. Set as 'y' to obtain lenght of amino acid sequence of each isoform and 'n' if such information is not needed.")
+parser.add_argument("-l", "--aa_length", type = str, required = False, help = "Used with -p and -s. Set as 'y' to obtain length of amino acid sequence of each isoform and 'n' if such information is not needed.")
 parser.add_argument("-g", "--GO", action='store_true', required = False, help = "Stores Gene Ontology terms from the UniProt page of each protein. Needs flag -t to specify GOterm. Needs flag -c OR -o to generate output")
 parser.add_argument("-t", "--GOterm", type = str, required = False, help = "Used with -g. Set as F for GO Molecular Function, P for GO Biological Process, or C for Cellular Component")
 parser.add_argument("-c", "--countplot", action='store_true', required = False, help = "Used with -g and -t to create a countplot of GO terms associated with proteins in list. Only used for list of UniProt IDs.")
