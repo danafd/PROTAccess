@@ -91,7 +91,9 @@ The `--x` command can be used to display the an x number of GO terms for each pr
 python ProtAccess.py -i ID_list.txt -g -t F -x 5
 ```
 
-All the above commands can be used on a single UniProt ID (Use `-u` to input ID instead of `-i` to input file) except the `-c` flag that can only be used on a set of UniProt IDs. 
+All the above commands can be used on a **single UniProt ID** except the `-c` flag that can only be used on a set of UniProt IDs. Please use `-u` to input ID instead of `-i` to input file in this case. 
+
+
 
 ```
 python ProtAccess.py -u A5YKK6 -n -p -s all -l y -g -t F -x 4
