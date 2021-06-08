@@ -67,7 +67,7 @@ The example file *ID_list.txt* found on this github page can be cloned and used 
 The below commad would create a folder for each UniProt ID found in the file and store the NCBI RNA transcripts in it. It would also display the gene name and ID and the number of trascripts for this UniProt ID as extracted from NCBI. 
 
 ```
-python ProtAccess.py -i ID_list.txt –ncbiSeq
+python ProtAccess.py -i ID_list.txt –n
 ``` 
 
 The below script would add a fasta files to each folder with the canonical sequence of this UniProt ID. It would also display the length of the canonical isoform. This information is extracted from UniProt. 
