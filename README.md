@@ -1,6 +1,6 @@
 # ProtAccess
 
-Online biological databases have provided scientists with a plethora of information that can be extracted, manipulated and studied. However, the huge amount of data can sometimes be daunting to deal with. ProtAccess is a Python tool that helps researchers access two widely used online databases, [UniProt](https://www.uniprot.org/) and NCBI, to extract key information such as protein and nucleotide sequences as well as Gene Ontology terms by inputting UniProt IDs only (Single ID or list of IDs stored in file). 
+Online biological databases have provided scientists with a plethora of information that can be extracted, manipulated and studied. However, the huge amount of data can sometimes be daunting to deal with. ProtAccess is a Python tool that helps researchers access two widely used online databases, [UniProt](https://www.uniprot.org/) and [NCBI](https://www.ncbi.nlm.nih.gov/), to extract key information such as protein and nucleotide sequences as well as Gene Ontology terms by inputting UniProt IDs only (Single ID or list of IDs stored in file). 
 
 ## Overview 
 
@@ -62,7 +62,7 @@ optional arguments:
 
 ## Example file
 
-The example file *ID_list.txt* found on this github page can be cloned and used to test this program. Here, the short flags will be used instead of the long flags for simplicity. Please refer to the above section for a description of each flag. 
+The example file *ID_list.txt* found on this github page can be cloned and used to test this program. The Uniprot page this list was downloaded from can be accessed by following this [link](https://www.uniprot.org/uniprot/?query=annotation%3A%28type%3Adisease+anxiety%29&sort=score). Here, the short flags will be used instead of the long flags for simplicity. Please refer to the above section for a description of each flag. 
 
 The below commad would create a folder for each UniProt ID found in the file and store the NCBI RNA transcripts in it. It would also display the gene name and ID and the number of trascripts for this UniProt ID as extracted from NCBI. 
 
