@@ -1,6 +1,6 @@
 # ProtAccess
 
-Online biological databases have provided scientists with a plethora of information that can be extracted, manipulated and studied. However, the huge amount of data can sometimes be daunting to deal with. ProtAccess is a Python tool that helps researchers access two widely used online databases, UniProt and NCBI, to extract key information such as protein and nucleotide sequences as well as Gene Ontology terms by inputting UniProt IDs only (Single ID or list of IDs stored in file). 
+Online biological databases have provided scientists with a plethora of information that can be extracted, manipulated and studied. However, the huge amount of data can sometimes be daunting to deal with. ProtAccess is a Python tool that helps researchers access two widely used online databases, [UniProt](https://www.uniprot.org/) and NCBI, to extract key information such as protein and nucleotide sequences as well as Gene Ontology terms by inputting UniProt IDs only (Single ID or list of IDs stored in file). 
 
 ## Overview 
 
