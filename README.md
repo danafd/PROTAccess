@@ -87,7 +87,7 @@ The following command can be used to obtain a countplot of all Gene Ontology Mol
 python ProtAccess.py -i ID_list.txt -g -t F -c
 ```
 
-The `--x` command can be used to display the an x number of GO terms for each protein. 
+The `-x` command can be used to display the an specified number of GO terms for each protein. 
 
 ```
 python ProtAccess.py -i ID_list.txt -g -t F -x 5
