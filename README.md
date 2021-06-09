@@ -4,9 +4,9 @@ Online biological databases have provided scientists with a plethora of informat
 
 ## Overview 
 
-The `--uniprotID` flag can be used to input a single UniProt ID, and the `--inputfile` can be used to input a file containing a list of UniProt IDs downloaded directly as a **list** from UniProt. 
+The `--uniprotID` flag can be used to input a single UniProt ID, and the `--inputfile` flag can be used to input a file containing a list of UniProt IDs downloaded directly as a **list** from UniProt. 
 
-This tool creates a folder for each UniProt ID (protein) in your directory. Upon using the `--ncbiSeq` flag, a fasta file containing the trascript sequences extracted from NCBI is stored. Upon using the `--proteinSeq` flag followed by the `--isoform` (canonical or all) and `--aa_length` (y or n) flags, a fasta file containing the amino acid sequences of the specified isoforms is created and the lenght of each isoform is displayed (for '`--aa_length` y'). This information is extracted from UniProt. 
+This tool creates a folder for each UniProt ID (protein) in your directory. Upon using the `--ncbiSeq` flag, a fasta file containing the trascript sequences extracted from NCBI is stored. Upon using the `--proteinSeq` flag followed by the `--isoform` (canonical or all) and `--aa_length` (y or n) flags, a fasta file containing the amino acid sequences of the specified isoforms is created and the length of each isoform is displayed (for '`--aa_length` y'). This information is extracted from UniProt. 
 
 
 The Gene Ontology terms associated with each protein can also be extracted from UniProt using the `--GO` flag. the `--GOterm` flag can be set as F to extract the GO Molecular Function terms, P to extract the Biological Process terms, and C to extract the Cellular Component terms. For input files containing several Uniprot IDs, the `--countplot` flag can be used to create and store a countplot that displays the GO terms that appear for the given group of proteins as a PNG file. The `--GOnum` file can be used to obtain a list of the GO terms associated with each protein. 
