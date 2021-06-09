@@ -155,7 +155,7 @@ def removeDuplicates(listofElements):
 
 
 def uniprotGO(code, GOterm):
-    '''code is the uniprot ID and GOterm is either 'F' 'C' or 'P'
+    '''Function that extracts information on GO terms from UniProt page.Code is the uniprot ID and GOterm is either 'F' 'C' or 'P'
     
     F => GO Molecular Function 
     P => GO Biological Process
@@ -242,9 +242,6 @@ if args.inputfile:
             if args.GO:
                 dictGO[line.strip('\n')] = uniprotGO(line.strip('\n'), GOterm = args.GOterm)
             
-
-
-
 
     if args.countplot:
         df = pd.DataFrame(dictGO.values())
